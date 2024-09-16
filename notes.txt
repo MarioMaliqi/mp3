@@ -1,0 +1,17 @@
+mp3 player:
+  requirements:
+    - gui: gtk (cross platform)
+    - audio: port audio
+
+  features:
+  - stop/resume playback
+  - skip track (each direction) (< 5secs back reset the current track)
+  - playback time and track length (5 or 10secs skip button)
+  - progressbar for length (with skipping)
+  - support different file formats (mp3, wav, flac, etc...)
+  - add library with singles, albums, compilations, playlists
+
+  TODO:
+  - read gtk documentation (different versions stuff n shit) (complex shit)
+    fileDialog is working fine in firefox (it must be a code problem)
+  - also research portaudio
